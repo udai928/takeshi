@@ -18,7 +18,7 @@ module.exports = (robot) ->
   robot.respond /amagumo japan/i, (msg) ->
     msg.send getAmagumoRaderUrl "37.9072841", "137.1255805", "6", "500", "500", HUBOT_YAHOO_AMAGUMO_APP_ID
 
-  robot.respond /雨雲どう？( zoom)?@(.+)/i, (msg) ->
+  robot.respond /雨雲レーダー( zoom)?@(.+)/i, (msg) ->
     zoom = if msg.match[1] then "14" else "12"
     area = msg.match[2]
 
