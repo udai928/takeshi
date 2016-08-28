@@ -11,7 +11,7 @@
 
 module.exports = (robot) ->
 
-  HUBOT_YAHOO_AMAGUMO_APP_ID = "dj0zaiZpPTdlZWZWOFBJVHUxUiZzPWNvbnN1bWVyc2VjcmV0Jng9ZWY-"
+  HUBOT_YAHOO_AMAGUMO_APP_ID = ""
   width = "500"
   height = "500"
 
